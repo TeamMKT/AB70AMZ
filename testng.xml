@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+  <test name="Testing on Chrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="learning.Ab70Maven.LoginToAmazon"/>
+      <class name="learning.Ab70Maven.LoginToAmazonAndLogout"/>
+      <class name="learning.Ab70Maven.LoginToAmazonSearchLogout"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
