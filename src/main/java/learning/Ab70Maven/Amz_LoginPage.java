@@ -36,13 +36,13 @@ public class Amz_LoginPage
 	public void EnterUsername()
 	{
         wait.until(ExpectedConditions.visibilityOf(username));
-		username.sendKeys("mkumarban@gmail.com");
+		username.sendKeys("sibani4bk@gmail.com");
 	}
 	public void EnterPassword()
 	{
         wait.until(ExpectedConditions.visibilityOf(password));
 
-																																									password.sendKeys("Sunita0309!@#");
+		password.sendKeys("Welcome*123");
 	}
 	public void ClickOnContinue()
 	{

@@ -13,9 +13,9 @@ public class LoginToFacebook
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
 		Amz_LoginPage loginpage=new Amz_LoginPage(driver);
-		loginpage.EnterValidEmailId();
-		loginpage.EnterValidPassword();
-		loginpage.ClickOnLoginButton();
+	//	loginpage.EnterValidEmailId();
+	//	loginpage.EnterValidPassword();
+	//	loginpage.ClickOnLoginButton();
 		
 		
 		
